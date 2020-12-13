@@ -53,6 +53,14 @@ int main(int argc, char *argv[]) {
 	{
 		//3. menu printing
 		//fill code here ---- 
+		printf("1. print all the schedules\n");
+		printf("2. search for schedules in the month\n");
+		printf("3. search for schedules in the place\n");
+		printf("4. search for specific type schedule\n");
+		printf("5. exit\n\n");
+		
+		printf(" select an option : ");
+		scanf("%d", &option);
 		
 		//4. get option from keyboard
 		//fill code here ----
