@@ -30,9 +30,6 @@ int main(int argc, char *argv[]) {
 	printf("Reading the data files... \n");
 	list = (void*)list_genList();
 	
-	
-	
-	
 	//2. read from the file
 	while ( /* fill code here -- read from the file*/ )
 	{	
@@ -42,12 +39,10 @@ int main(int argc, char *argv[]) {
 		list_addTail(schedInfo, list);
 	}
 	
-	
 	//fill code here ---- close the file pointer
 	
 	printf("Read done! %i schedules are read\n", list_len(list));
-	
-	
+		
 	//program starts
 	while(exit_flag == 0) 
 	{
@@ -59,12 +54,10 @@ int main(int argc, char *argv[]) {
 		printf("4. search for specific type schedule\n");
 		printf("5. exit\n\n");
 		
+		//4. get option from keyboard
+		//fill code here ----	
 		printf(" select an option : ");
 		scanf("%d", &option);
-		
-		//4. get option from keyboard
-		//fill code here ----
-		
 		
 		switch(option)
 		{
@@ -148,8 +141,7 @@ int main(int argc, char *argv[]) {
 				printf("wrong command! input again\n");
 				break;
 		}
-		
-		
+				
 	}
 	
 	return 0;
